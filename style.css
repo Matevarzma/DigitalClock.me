@@ -1,0 +1,60 @@
+body{
+             margin: 0;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             height: 100vh;
+             justify-content: center;
+             background-image: url("https://images.unsplash.com/photo-1614531341773-3bff8b7cb3fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+             font-family: sans-se;
+             background-size: cover;
+             overflow: hidden;
+}
+
+h2{
+             text-transform: uppercase;
+             letter-spacing: 4px;
+             text-align: center;
+             font-size: 14px;
+             color: white;
+}
+
+.Clock{
+             display: flex;
+             
+
+}
+.Clock div{
+             margin: 8px;
+             position: relative;
+}
+.Clock span{
+             width: 100px;
+             height: 80px;
+             background-color: lightseagreen;
+             opacity: 0.8;
+             color: white;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             text-shadow: 2px , 2px , 4px rgba(0, 0, 0, 0.3);
+             font-size: 50px;
+}
+
+.Clock .Text{
+             height: 30px;
+             font-size: 10px;
+             text-transform: uppercase;
+             letter-spacing: 2px;
+             background-color: rgb(9, 102, 79);
+             opacity: 0.8;
+}
+
+.Clock #ampm{
+             bottom: 0;
+             position: absolute;
+             width: 60px;
+             height: 30px;
+             font-size: 20px;
+             background-color: rgb(61, 32, 194);
+}
